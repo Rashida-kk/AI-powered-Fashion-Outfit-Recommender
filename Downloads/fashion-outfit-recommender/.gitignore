@@ -13,3 +13,32 @@ models/*.h5
 
 # Jupyter Checkpoints
 **/.ipynb_checkpoints
+# Ignore virtual environments
+env/
+venv/
+
+# Python-related files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Data files
+data/*.csv
+data/*.xlsx
+
+# Model files
+models/*.pkl
+models/*.h5
+
+# Jupyter notebooks
+**/.ipynb_checkpoints
+
+# System files
+.DS_Store
+Thumbs.db
+*.log
+
+# Application-specific
+*.exe
+*.msi
